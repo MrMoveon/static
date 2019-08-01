@@ -13,7 +13,7 @@ set -e
 # echo 'www.example.com' > CNAME
 
 git init
-git add -A
+git add .
 git commit -m 'upload'
 
 # 如果发布到 https://<USERNAME>.github.io
